@@ -37,11 +37,6 @@ module.exports = {
   externals: {
     flowplayer: 'flowplayer'
   },
-  module: {
-    loaders: [
-      { test: /\/hls\.js\/.+/, loader: 'babel', query: { presets: ['es2015'] } }
-    ]
-  },
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js'
