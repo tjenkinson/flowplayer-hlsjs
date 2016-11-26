@@ -48,7 +48,6 @@ module.exports = {
       mangle: true,
       output: { comments: false }
     }),
-    new webpack.NormalModuleReplacementPlugin(/^webworkify$/, 'webworkify-webpack'),
     new WrapperPlugin({header: headerComment, footer: footerComment}),
     new webpack.BannerPlugin(banner, {raw: true})
   ]
