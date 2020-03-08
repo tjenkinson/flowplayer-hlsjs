@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/flowplayer/flowplayer-hlsjs",
   "dependencies": {
-    "hls.js": "0.6.11"
+    "hls.js": "0.13.2"
   },
   "peerDependencies": {
     "flowplayer": "^6.0.3"
